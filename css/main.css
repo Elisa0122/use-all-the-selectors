@@ -14,7 +14,7 @@ nav ul {
   text-transform: uppercase;
 }
 
-.wraper {
+.wrapper {
   background-color: #eee8d5;
 }
 
@@ -22,11 +22,11 @@ nav ul {
   color: #93a1a1;
 }
 
-.wrapper > .dfn {
-  background-color: #b5800;
+.wrapper h2 + .dfn {
+  background-color: #b58900;
 }
 
-.dfn + strong {
+h2 + .dfn > strong {
   color: #fff;
 }
 
@@ -34,7 +34,7 @@ a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-a [rel=external] {
+[rel="external"] {
   background-color: #2694d8;
 }
 
@@ -54,6 +54,6 @@ ol li:last-child {
   background-color: #586e75;
 }
 
-.types li:nth-of-type(3) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
